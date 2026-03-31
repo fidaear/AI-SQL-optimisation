@@ -1,13 +1,3 @@
-"""
-index_recommender.py
-====================
-Task: Index Recommendation Engine
-Project: AI-Assisted SQL Query Optimization
-
-Identifies WHERE/JOIN columns, generates CREATE INDEX suggestions,
-and prevents duplicate recommendations.
-"""
-
 import re
 from utils.logger import get_logger
 
